@@ -10,9 +10,16 @@
 }
 .back-arrow-div span{
     width: 100%;
+    padding-top: 5px;
     display: flex;
     color: rgb(53, 52, 52);
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+/* Mobile View */
+@media only screen and (max-width: 900px){
+    .back-arrow-div {
+        display: none;
+    }
 }

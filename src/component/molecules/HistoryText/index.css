@@ -2,7 +2,7 @@
     padding: 24px 36px;
     background-color: white;
     border-radius: 10px;
-    overflow-y: auto;
+    overflow-y: scroll;
     height: 70vh;
 }
 .history-page-article h5 {
@@ -17,6 +17,7 @@
 }
 .history-page-article::-webkit-scrollbar{
     width: 4px;
+    border-radius: 10px;
 }
 .history-page-article::-webkit-scrollbar-thumb {
     background-color: transparent;
@@ -26,5 +27,15 @@
     background-color: rgb(211, 0, 2);
 }
 .history-page-article::-webkit-scrollbar-track {
-    background-color: grey 0px 0px 5px inset;
+    background-color: rgb(209, 203, 203) ;
+    border-radius: 10px;
+}
+/* Mobile View */
+@media only screen and (max-width: 900px) {
+    .history-page-article {
+        margin-top: 50px;
+        padding: 24px 10px;
+        height: auto;
+        overflow-y: auto;
+    }
 }

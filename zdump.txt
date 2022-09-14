@@ -9,3 +9,45 @@ setInterval(() => {
   increaseCounter()
   console.log(increaseCounter())
   }, 1000);
+
+#
+let [count,setCount]= useState(0)
+  
+  const setCounter =()=>setInterval(() => {
+    // const getCount= ()=> count
+    function getCount() {
+      return count
+    }
+    const increaseCount = () =>{
+      getCount()
+      return count++
+    }
+    if (count >= 20){
+      count =0
+    }
+    else{
+      increaseCount()
+    }
+    console.log(count)
+    // setCount(count)
+    
+    return {
+      getCount,
+      count
+      
+    }
+  }, 7000);
+
+  const rightClickHandler = () =>{
+    // setCounter.getCount()
+    // count =+1
+console.log(setCounter.getCount)
+    return count
+  }
+  const leftClickHandler = () =>{
+    setCounter.getCount()
+    count =-1
+console.log(count)
+    return count
+  }
+console.log(count)
