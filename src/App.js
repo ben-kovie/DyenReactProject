@@ -1,11 +1,13 @@
 import React from 'react'
+import {HistoryPage} from './component'
+// import { PageTemplate } from './component'
 
 function App() {
   return (
-    <div>
-      <h1 style={{ textAlign: "center", color: "blue" }}> 
-       our project</h1>
-    </div>
+    // <PageTemplate header={}>
+      <HistoryPage />
+
+    // </PageTemplate>
   )
 }
 

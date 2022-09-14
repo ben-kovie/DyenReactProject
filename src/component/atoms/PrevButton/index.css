@@ -1,0 +1,18 @@
+.back-arrow-div{
+    width:28px;
+    height: 28px;
+    border-radius: 100%;
+    border: 1px solid black;
+    position: absolute;
+    top:24px;
+    left:24px;
+    background-color: white;
+}
+.back-arrow-div span{
+    width: 100%;
+    display: flex;
+    color: rgb(53, 52, 52);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

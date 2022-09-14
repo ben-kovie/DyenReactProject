@@ -1,0 +1,11 @@
+let counter =0
+const increaseCounter= () => {
+  const getCounter=()=> counter
+  getCounter()
+   counter =+ 1
+  return counter
+}
+setInterval(() => {
+  increaseCounter()
+  console.log(increaseCounter())
+  }, 1000);

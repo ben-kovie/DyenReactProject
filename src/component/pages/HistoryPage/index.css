@@ -1,0 +1,23 @@
+.history-body-section{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.king-crest-container{
+    width: 30vh;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.king-crest-container img {
+    width: 100%;
+    height: 100%;
+}
+.history-page-right-half{
+    background-color: rgb(245, 245, 245);
+    padding: 24px;
+    height: 100vh;
+}
+.history-page-right-half h2{
+    font-size: 2rem;
+}
