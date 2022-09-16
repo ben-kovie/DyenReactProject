@@ -1,13 +1,15 @@
 import React from 'react'
-import {HistoryPage} from './component'
+import { Login} from './component'
 // import { PageTemplate } from './component'
 
 function App() {
-  return (
-    // <PageTemplate header={}>
-      <HistoryPage />
-
-    // </PageTemplate>
+  return (<>
+     {/* <PageTemplate header={}> */}
+      {/* <HistoryPage /> */}
+      <Login />
+    
+     {/* </PageTemplate> */}
+    </>
   )
 }
 

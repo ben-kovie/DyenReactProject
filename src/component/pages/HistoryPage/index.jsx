@@ -1,5 +1,6 @@
 import React from 'react'
-import { PrevButton, MobileMenuIcon } from '../../atoms'
+import { PrevButton } from '../../atoms'
+import { MobileMenuIcon } from '../../organisms'
 import { HistoryText } from '../../molecules'
 // import { kingCrestData } from './kingCrestData'
 import './index.css'

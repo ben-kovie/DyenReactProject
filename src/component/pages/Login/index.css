@@ -1,0 +1,9 @@
+.login-main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(209, 203, 203);
+}
+.login-page-left-half{
+    background-image: url('https: //atuwatseiii.com/static/media/speeches.32008b73e3d952cf67ed.png');
+    height: 100vh;
+}
