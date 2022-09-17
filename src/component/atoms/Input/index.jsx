@@ -1,9 +1,10 @@
 import React from 'react'
+import './index.css'
 
-export const Input = ({placeholder,name,id,type,className}) => {
+export const Input = ({placeholder,name,id,type,style}) => {
   return (
     <>
-      <input className={className} type={type} name={name} id={id} placeholder={placeholder} />
+      <input style={style} className='input' type={type} name={name} id={id} placeholder={placeholder} />
     </>
   )
 

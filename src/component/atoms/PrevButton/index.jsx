@@ -1,9 +1,9 @@
 import React from 'react'
 import './index.css'
 
-export const PrevButton = () => {
+export const PrevButton = ({style}) => {
   return (
-    <div className='back-arrow-div'>
+    <div style={style} className='back-arrow-div'>
       <span>⟵</span>
       
     </div>

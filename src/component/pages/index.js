@@ -1,2 +1,3 @@
-export * from './HistoryPage'
-export * from './Login'
+export * from './History'
+export * from './Account'
+export * from './RoyalCourtNotices'
