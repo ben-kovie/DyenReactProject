@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-./zdump.txt
+zdump.txt
 
 # production
 /build

@@ -1,4 +1,5 @@
 export * from './Text'
 export * from './Button'
 export * from './NavIcons'
+export * from './Input'
 export * from './PrevButton'

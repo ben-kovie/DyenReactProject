@@ -1,10 +1,11 @@
 import React from 'react'
+import './index.css'
 
-export const Button = () => {
+export const Button = ({children,className,type}) => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <button className={className} type={type}>{children}</button>
+    </>
   )
 }
 
