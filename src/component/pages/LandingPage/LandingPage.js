@@ -21,7 +21,7 @@ function LandingPage() {
         <div className='logo'><img src = 'https://atuwatseiii.com/#/' /></div>
        
         <ul className='list ms-auto'>
-        <li><Link to='/historyPage'>History
+        <li><Link to='/history'>History
         <hr className='underliner'/>
         </Link></li>
         <li><Link to ='/theGinuwa'>The Ginuwa Ruling House<hr className='underliner'/></Link></li>

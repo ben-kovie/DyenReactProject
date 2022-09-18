@@ -7,22 +7,13 @@ import TheGinuwa from './component/pages/TheGinuwa/TheGinuwa'
  import LandingPage from './component/pages/LandingPage/LandingPage'
 import { Route, Routes} from "react-router-dom"
 import { PageTemplate } from './component'
-import {HistoryPage} from './component'
+import {History} from './component'
 
 
 
 
 
      
-      {/* <History /> */}
-      {/* <Account /> */}
-      
-      {/* <TheGinuwa/> */}
-      {/* <LandingPage/> */}
-     
-  
-
-
 function App() {
   return (
   // <PageTemplate header= {}>
@@ -32,7 +23,7 @@ function App() {
      <Routes>
       <Route path ='/' element = {<LandingPage/>}/>
       <Route path ='/royalCourtNotices' element ={<RoyalCourtNotices />}/>
-       <Route path ='/historPage' element = {<HistoryPage/>}/>
+       <Route path ='/history' element = {<History/>}/>
           <Route path ='/theGinuwa' element = {<TheGinuwa/>}/>
          </Routes>
        </PageTemplate>
