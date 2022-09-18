@@ -1,7 +1,5 @@
 
 import React from 'react'
-//import { PrevButton } from '../../atoms'
-//import { HistoryText } from '../../molecules'
 import Data from "./Data"
 import "./TheGinuwa.css"
 
@@ -10,7 +8,7 @@ function TheGinuwa() {
   return (
     <div >
       
-  <section className='history-bdy-section'>
+  <section className='bdy-section'>
        
        <div className=''>
          <h1>first section</h1>
