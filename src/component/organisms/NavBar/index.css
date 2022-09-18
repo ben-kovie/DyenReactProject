@@ -1,0 +1,73 @@
+nav {
+    width: 54vw;
+    height: 8vh;
+    position: fixed;
+    color: white;
+}
+
+.nav-new {
+    transform: translate(20vw, 95vh);
+}
+
+nav div span {
+    background-color: var(--red);
+    margin: 0;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 7px 13px 0 13px;
+    border-radius: 5px;
+    position: relative;
+    left: 48%;
+    top: 8px;
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    background-color: var(--red);
+    margin: 0;
+    height: 90%;
+    padding: 1% 2%;
+    border-radius: 50px;
+}
+
+nav ul li {
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 1% 3%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+nav ul li div:nth-child(1) {
+    margin-right: 7px;
+}
+@media screen and (max-width:900px) {
+    nav {
+        width: 90vw;
+        height: 11vh;
+        transform: translate(6vw, 83vh) !important;
+        position: fixed;
+        color: white;
+    }
+    nav div span {
+        left:45%;
+    }
+    nav ul{
+        padding: 1% 4%;
+    }
+    nav ul li {
+        margin-right: 10px;
+        padding: 2% 4%;
+    }
+   
+}
