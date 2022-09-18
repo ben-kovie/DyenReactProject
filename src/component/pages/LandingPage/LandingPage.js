@@ -18,7 +18,7 @@ function LandingPage() {
     <div className='conatainer bcg'>
   
         <div className='nav-bar container'>
-        <div className='logo'><img src = 'https://atuwatseiii.com/#/' /></div>
+        <div className='logo'><img src = 'https://atuwatseiii.com/#/' alt='landing mage' /></div>
        
         <ul className='list ms-auto'>
         <li><Link to='/history'>History
@@ -26,7 +26,7 @@ function LandingPage() {
         </Link></li>
         <li><Link to ='/theGinuwa'>The Ginuwa Ruling House<hr className='underliner'/></Link></li>
         <li><Link to ='/'>Warri Traditional Council<hr className='underliner'/></Link></li>
-        <li><Link to='/'> Royal Court Notices<hr className='underliner'/></Link></li>
+        <li><Link to='/royalCourtNotices'> Royal Court Notices<hr className='underliner'/></Link></li>
         </ul>
           </div>
 

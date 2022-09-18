@@ -1,5 +1,6 @@
 export * from './History'
 export * from './Account'
 export * from './RoyalCourtNotices'
+export * from './Speeches'
 // export * from './TheGinuwa' 
 // export * from './LandingPage'

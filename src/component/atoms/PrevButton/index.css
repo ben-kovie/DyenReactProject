@@ -6,11 +6,12 @@
     position: absolute;
     top:24px;
     left:24px;
+    text-decoration: none ;
     background-color: white;
 }
 .back-arrow-div span{
     width: 100%;
-    padding-top: 5px;
+    padding-top: 0px;
     display: flex;
     color: rgb(53, 52, 52);
     justify-content: center;

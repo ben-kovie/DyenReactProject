@@ -3,10 +3,10 @@ import './index.css'
 
 export const PrevButton = ({style}) => {
   return (
-    <div style={style} className='back-arrow-div'>
+    <a  href='http://localhost:3000/ 'style={style} className='back-arrow-div'>
       <span>⟵</span>
       
-    </div>
+    </a>
   )
 }
 

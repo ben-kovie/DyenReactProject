@@ -3,7 +3,7 @@ import React from "react";
 export const PageTemplate = ({ header, footer, children }) => {
   return (
     <div className="main">
-      <div className="container">
+      <div>
         <header>{header}</header>
         {children}
         <footer>{footer}</footer>
