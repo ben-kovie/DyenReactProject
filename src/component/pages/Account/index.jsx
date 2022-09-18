@@ -4,9 +4,12 @@ import { LoginForm } from '../../molecules'
 import './index.css'
 
 export const Account = () => {
+  const PrevButtonStyle={
+    border:'0',
+  }
   return (
     <main className='login-main'>
-      <PrevButton />
+      <PrevButton style={PrevButtonStyle}/>
       <div className='login-page-left-half'><img  src="https://atuwatseiii.com/static/media/speeches.32008b73e3d952cf67ed.png" alt="img" /></div>
       <div className='login-page-right-half'>
         <div>

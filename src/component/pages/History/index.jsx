@@ -1,24 +1,38 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { PrevButton } from '../../atoms'
-import { MobileMenuIcon } from '../../organisms'
+import { MobileMenuIcon, NavBar } from '../../organisms'
 import { HistoryText } from '../../molecules'
-// import { kingCrestData } from './kingCrestData'
+import { kingCrestData } from './kingCrestData'
 import './index.css'
 
 
 export const History = () => {
-  
+
+  const [currentIndex, setCurrentIndex] =useState(0)
+  const prevClickHandler=()=>{
+      const isFirstSlide = currentIndex===0;
+      const newIndex= isFirstSlide ? kingCrestData.length-1 : currentIndex - 1;
+      setCurrentIndex(newIndex)
+  }
+  const nextClickHandler=()=>{
+      const isLastSlide=currentIndex === kingCrestData.length-1;
+      const newIndex= isLastSlide ? 0 : currentIndex +  1;
+      setCurrentIndex(newIndex)
+      console.log(newIndex)
+  }
+
   return (
     <>
+        <NavBar/>
         <PrevButton/>
         <MobileMenuIcon />
         <section className='history-body-section'>
         <div className='king-crest-container'>
         <h2 className='mob-history-text'>History</h2>
           <div>
-            <button>🢐</button>
-            <div className='king-crest-img-container'><img src='https://atuwatseiii.com/assets/img/crests/iwere_kings/atonrongboye.jpg'  alt='imag'/></div>
-            <button>🢒</button>
+            <button onClick={prevClickHandler}>🢐</button>
+            <div className='king-crest-img-container'><img src={kingCrestData[currentIndex].imgUrl}  alt='imag'/></div>
+            <button onClick={nextClickHandler} >🢒</button>
           </div>
         </div>
         <div className='history-page-right-half'>

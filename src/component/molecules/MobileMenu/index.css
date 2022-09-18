@@ -57,7 +57,6 @@
     font-weight: 700;
 }
 .links-div{
-    /* width: 50%; */
     display: flex;
     justify-content: stretch;
     align-items: center;
