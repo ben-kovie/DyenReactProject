@@ -1,2 +1,2 @@
-export * from './MobileMenuIcon'
 export * from './NavBar'
+export * from './MobileMenuIcon'
