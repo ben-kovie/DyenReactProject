@@ -1,0 +1,24 @@
+.bdy-section {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.right-corner{
+   padding-top: 5%;
+}
+
+
+.second-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 4%;
+}
+
+.ipt{
+   border-width:2px ;
+}
+
+.scrollable-part{
+    overflow-y: scroll;
+    height: 350px;
+}
