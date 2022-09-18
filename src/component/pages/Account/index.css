@@ -1,0 +1,54 @@
+.login-main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #f1f1f1;
+}
+.login-page-left-half{
+    /* background-image: url('https: //atuwatseiii.com/static/media/speeches.32008b73e3d952cf67ed.png'); */
+    max-height: 99vh;
+    width: 100%;
+}
+.login-page-left-half img{
+    width: 100%;
+    height: 100%;
+}
+.login-page-right-half{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-page-right-half div{
+    background-color: white;
+    border-radius: 10px;
+    min-height: 80%;
+    min-width: 74%;
+    padding: 30px 20px;
+}
+.login-safe-details-txt,.login-h2-txt{
+    margin: 0;
+}
+.login-h2-txt {
+    margin-top:38px;
+    font-size: 2rem;
+}
+.login-safe-details-txt{
+    font-size: 0.8rem;
+    line-height: 2.6rem;
+}
+
+
+@media screen and (max-width:450px) {
+    .login-page-left-half{
+        display: none;
+    }
+    .login-page-right-half div {
+        width: 83vw;
+    }
+    .login-main{
+        display: block;
+    }
+    .login-safe-details-txt{
+        line-height: 1.3rem;
+        margin: 15px 0;
+    }
+}
