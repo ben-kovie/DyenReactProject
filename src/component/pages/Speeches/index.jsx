@@ -1,6 +1,6 @@
 import React from 'react'
-import { Text,PrevButton,Input } from '../../atoms'
-import { MobileMenuIcon } from '../../organisms'
+import { Text,PrevButton } from '../../atoms'
+import { MobileMenuIcon,SearchInput } from '../../organisms'
 
 export const Speeches= () => {
     const prevButtonStyle={
@@ -22,7 +22,7 @@ export const Speeches= () => {
         <div  className='notice-middle-section'>
           <div className='notice-middle-section-top' >
             <Text type='h2'>Speeches</Text>
-            <Input style={searchInputStyle} placeholder='search' id='search' type='search' name='search' />
+            <SearchInput style={searchInputStyle} id='speeches-search'/>
           </div>
         </div>
         <div className="all-notices">
