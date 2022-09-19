@@ -17,6 +17,8 @@
 .nav-bar{
    display: flex;
   padding-top: 2%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .list{
