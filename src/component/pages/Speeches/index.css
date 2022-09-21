@@ -1,3 +1,45 @@
-.notice-middle-section-top h2{
-    font-weight: 900;
+.speech-page{
+    display: grid;
+    grid-template-columns: 35% 32% 33%;
+    height: 100vh;
+    background-color: rgb(245, 245, 245);
 }
+.speech-left-section img{
+    width:100%;
+}
+.speech-middle-section{
+    margin: 0 0 24px 0;
+    padding-left: 24px;
+}
+.speech-right-section-top{
+    background-color: white;
+    height: 16vh;
+    border-radius: 0 0 20px 20px;
+}
+
+
+@media screen and (max-width:900px) {
+    .speech-page{
+        grid-template-columns: 50% 50%;
+    }
+    .speech-left-section{
+        display: none;
+    }
+    .speech-middle-section{
+        padding-left: 0;
+    }
+
+}
+@media screen and (max-width:450px) {
+    .speech-page {
+        display: block;
+        width: 100%;
+    }
+    .speech-right-section {
+        display:  none;
+    }
+}
+
+
+
+

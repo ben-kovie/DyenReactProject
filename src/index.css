@@ -1,9 +1,11 @@
 :root {
   --red: rgb(211, 0, 2);
 }
+*{
+  font-family: Roboto, sans-serif !important;
+}
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
   background-color: rgb(245, 245, 245);
 }
 h1,h2{

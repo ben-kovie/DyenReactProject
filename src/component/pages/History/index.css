@@ -53,7 +53,6 @@
         display: block;
     }
     .king-crest-container{
-        /* height: 70vh; */
         padding: 9vh 0 0 5vw;
     }
     .mob-history-text {
@@ -66,7 +65,6 @@
 /* Tab view */
 @media only screen and (min-width: 768px) {
     .king-crest-img-container{
-        /* width: 50vw !important; */
         padding: 0%;
         margin: 0;
     }

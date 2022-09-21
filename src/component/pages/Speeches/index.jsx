@@ -1,6 +1,8 @@
 import React from 'react'
-import { Text,PrevButton } from '../../atoms'
-import { MobileMenuIcon,SearchInput } from '../../organisms'
+import {PrevButton } from '../../atoms'
+import { MobileMenuIcon, SpeechText } from '../../organisms'
+import './index.css'
+
 
 export const Speeches= () => {
     const prevButtonStyle={
@@ -8,31 +10,25 @@ export const Speeches= () => {
     top: '14px',
     left:'37%',
   }
-  const searchInputStyle={
-    borderColor: 'black', 
-    width:'100%'
-  }
+  
   return (
     <div>
-      <section className='notice-page'>
+      <section className='speech-page'>
         <PrevButton style={prevButtonStyle} />
         <MobileMenuIcon />
-      <div className='notice-left-section'><img src="https://atuwatseiii.com/static/media/speeches.32008b73e3d952cf67ed.png" alt="imag" /></div>
+      <div className='speech-left-section'><img src="https://atuwatseiii.com/static/media/speeches.32008b73e3d952cf67ed.png" alt="imag" /></div>
       <div>
-        <div  className='notice-middle-section'>
-          <div className='notice-middle-section-top' >
-            <Text type='h2'>Speeches</Text>
-            <SearchInput style={searchInputStyle} id='speeches-search'/>
-          </div>
+        <div  className='speech-middle-section'>
+            <SpeechText />
         </div>
-        <div className="all-notices">
+        <div className="all-speech">
             <div>
-              <Text type='p'>no speeches yet</Text>
+              
             </div>
         </div>
       </div>
-      <div className='notice-right-section-top'>
-
+      <div className='speech-right-section' >
+          <div className='speech-right-section-top'></div>
       </div>
     </section>
     </div>

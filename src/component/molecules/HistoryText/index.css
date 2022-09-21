@@ -23,7 +23,8 @@
     background-color: transparent;
     border-radius: 10px;
 }
-.history-page-article::-webkit-scrollbar-thumb:hover {
+.history-page-article::-webkit-scrollbar-thumb:hover,
+.scroll-div::-webkit-scrollbar-thumb:hover {
     background-color: rgb(211, 0, 2);
 }
 .history-page-article::-webkit-scrollbar-track {

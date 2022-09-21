@@ -1,7 +1,7 @@
 .notice-page{
     display: grid;
     grid-template-columns: 35% 30% 35%;
-    background-color: rgb(245, 245, 245);;
+    background-color: rgb(245, 245, 245);
 }
 .notice-page div img{
     width: 100%;
