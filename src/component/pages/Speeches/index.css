@@ -9,15 +9,58 @@
 }
 .speech-middle-section{
     margin: 0 0 24px 0;
-    padding-left: 24px;
 }
 .speech-right-section-top{
     background-color: white;
-    height: 16vh;
+    max-height: 18vh;
+    padding: 24px;
     border-radius: 0 0 20px 20px;
 }
+.mobile-backward-arrow{
+    display: none;
+}
+.speech-right-section-top-h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0;
+}   
+.speech-right-section-top-span, .mobile-speech-date-text {
+    font-size: 0.7rem;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+.mobile-speech-date-text{
+    display: none;
+}
+.speech-right-section-p-div{
+    padding: 14px;
+}
+.speech-right-section-p-container{
+    font-size: 0.9rem;
+    padding: 14px 4px 0 0px;
+    overflow-y: scroll;
+    max-height: 74vh;
+}
+.speech-right-section-p-container::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 10px;
+}
 
+.speech-right-section-p-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 10px;
+}
 
+.speech-right-section-p-container::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(211, 0, 2);
+}
+
+.speech-right-section-p-container::-webkit-scrollbar-track {
+    background-color: rgb(209, 203, 203);
+    border-radius: 10px;
+}
 @media screen and (max-width:900px) {
     .speech-page{
         grid-template-columns: 50% 50%;
@@ -37,6 +80,54 @@
     }
     .speech-right-section {
         display:  none;
+    }
+    .new-speech-right-section{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(245, 245, 245);
+        height: 100vh;
+    }
+    .speech-right-section-top{
+        background-color: transparent;
+        margin-bottom: 9px;
+        padding-bottom: 0;
+    }
+    .mobile-top-section-div{
+        border-bottom: 1px solid rgb(209, 203, 203);
+        margin-bottom: 0;
+        padding-bottom: 1rem;
+    }
+    .mobile-backward-arrow{
+        display: flex;
+        position: absolute;
+        top: 14px;
+        left: 14px;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgb(238, 238, 238);
+    }
+    .speech-right-section-top-h5{
+        margin-left: 35px;
+
+    }
+    .mob-d-none {
+        display: none;
+    }
+    .speech-right-section-p-container{
+        padding-top: 0; 
+    }
+    .speech-right-section-p-div{
+        padding-top: 8px;
+    }
+    .mobile-speech-date-text{
+        display: block;
     }
 }
 

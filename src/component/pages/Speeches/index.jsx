@@ -1,5 +1,5 @@
 import React from 'react'
-import {PrevButton } from '../../atoms'
+import {PrevButton,Text } from '../../atoms'
 import { MobileMenuIcon, SpeechText } from '../../organisms'
 import './index.css'
 
@@ -28,7 +28,23 @@ export const Speeches= () => {
         </div>
       </div>
       <div className='speech-right-section' >
-          <div className='speech-right-section-top'></div>
+          <div className='speech-right-section-top'>
+            <div>
+              <div className='d-flex mobile-top-section-div'>
+                <span id='mobile-backward-arrow' className='mobile-backward-arrow'>⟵</span>
+                <Text type='p' className='speech-right-section-top-h5'></Text>
+              </div>
+              <span className='speech-right-section-top-span mob-d-none'></span>
+            </div>
+          </div>
+          <div className='speech-right-section-p-container'>
+            <div className='speech-right-section-p-div' >
+              <div className='speech-right-section-p'>
+                  <span className='mobile-speech-date-text'></span>
+                  <Text className='speech-right-section-p-text' type='p'></Text>
+              </div>
+            </div>
+          </div>
       </div>
     </section>
     </div>
