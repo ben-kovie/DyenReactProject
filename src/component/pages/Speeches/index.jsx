@@ -1,6 +1,6 @@
 import React from 'react'
 import {PrevButton,Text } from '../../atoms'
-import { MobileMenuIcon, SpeechText } from '../../organisms'
+import { NavBar,MobileMenuIcon, SpeechText } from '../../organisms'
 import './index.css'
 
 
@@ -14,6 +14,7 @@ export const Speeches= () => {
   return (
     <div>
       <section className='speech-page'>
+        <NavBar />
         <PrevButton style={prevButtonStyle} />
         <MobileMenuIcon />
       <div className='speech-left-section'><img src="https://atuwatseiii.com/static/media/speeches.32008b73e3d952cf67ed.png" alt="imag" /></div>

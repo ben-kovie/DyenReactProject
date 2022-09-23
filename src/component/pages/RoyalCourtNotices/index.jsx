@@ -1,6 +1,6 @@
 import React from 'react'
 import { Input, PrevButton,Text } from '../../atoms'
-import { MobileMenuIcon } from '../../organisms'
+import { NavBar,MobileMenuIcon } from '../../organisms'
 import './index.css'
 
 export const RoyalCourtNotices = () => {
@@ -15,6 +15,7 @@ export const RoyalCourtNotices = () => {
   }
   return (
     <section className='notice-page'>
+      <NavBar />
         <PrevButton style={prevButtonStyle} />
         <MobileMenuIcon />
       <div className='notice-left-section'><img src="https://atuwatseiii.com/static/media/speeches.32008b73e3d952cf67ed.png" alt="imag" /></div>

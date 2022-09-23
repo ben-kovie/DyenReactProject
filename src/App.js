@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar,History,Account,RoyalCourtNotices,PageTemplate,Speeches} from './component'
+import { History,Account,RoyalCourtNotices,PageTemplate,Speeches} from './component'
 import TheGinuwa from './component/pages/TheGinuwa/TheGinuwa'
 import LandingPage from './component/pages/LandingPage/LandingPage'
 import { Route, Routes} from "react-router-dom"
@@ -9,7 +9,7 @@ function App() {
   return (
   
    <div>
-   <PageTemplate header={<NavBar />}>
+   <PageTemplate>
      <Routes>
         <Route path ='/' element = {<LandingPage/>}/>
         <Route path ='/royalCourtNotices' element ={<RoyalCourtNotices />}/>

@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { PrevButton } from '../../atoms'
-import { MobileMenuIcon } from '../../organisms'
+import { NavBar,MobileMenuIcon } from '../../organisms'
 import { HistoryText } from '../../molecules'
 import { kingCrestData } from './kingCrestData'
 import './index.css'
@@ -23,6 +23,7 @@ export const History = () => {
   
   return (
     <>
+        <NavBar />
         <PrevButton/>
         <MobileMenuIcon />
         <section className='history-body-section'>

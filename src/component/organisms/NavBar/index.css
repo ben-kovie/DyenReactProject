@@ -34,6 +34,7 @@ nav ul {
 }
 .link-comp{
     text-decoration: none;
+    color: inherit;
     
 }
 .menu-links {
@@ -71,6 +72,7 @@ nav ul {
     nav ul{
         padding: 1% 4%;
         height: 100%;
+        overflow-x: auto;
     }
     .menu-links {
         margin-right: 10px;
